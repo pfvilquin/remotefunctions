@@ -4,6 +4,11 @@ import (
 	"fmt"
 )
 
+type Dog struct {
+	Breed  string
+	Weight int
+}
+
 func main() {
 	var colors = [3]string{"Red", "Green", "Blue"}
 	fmt.Println(colors)
@@ -21,4 +26,9 @@ func main() {
 		j++
 	}
 	fmt.Println(numbers)
+
+	poodle := Dog{"Poodle", 34}
+	fmt.Println(poodle)
+	fmt.Printf("%+v/n", poodle)
+
 }
