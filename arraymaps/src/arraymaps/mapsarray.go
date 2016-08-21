@@ -15,10 +15,10 @@ func main() {
 	fmt.Println(colors2)
 	fmt.Println(cap(colors2))
 	numbers := make([]int, 5, 50)
-	for i:=0, j:=10 , i<5 {
-		number[i++] = j 
+	j := 10
+	for i := 0; i < 5; i++ {
+		numbers[i] = j
+		j++
 	}
-	
-	
-
+	fmt.Println(numbers)
 }
