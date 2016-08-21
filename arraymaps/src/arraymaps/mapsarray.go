@@ -30,5 +30,4 @@ func main() {
 	poodle := Dog{"Poodle", 34}
 	fmt.Println(poodle)
 	fmt.Printf("%+v/n", poodle)
-
 }
