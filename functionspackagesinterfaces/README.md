@@ -1,1 +1,1 @@
-#Functions interfaces structures and tohers
+#Functions interfaces structures and others
