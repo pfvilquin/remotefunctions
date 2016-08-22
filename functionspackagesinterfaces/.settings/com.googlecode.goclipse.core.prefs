@@ -3,4 +3,4 @@ build_targets=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<build_
 com.googlecode.goclipse.gopath=
 com.googlecode.goclipse.goroot=/usr/local/go/
 eclipse.preferences.version=1
-toolchain_prefs.use_project_settings=true
+toolchain_prefs.use_project_settings=false

@@ -9,8 +9,8 @@ func main() {
 	fmt.Printf("Fullname: %v, number of chars %v", n1, l1)
 }
 
-func FullNameNakedReturn(first, last string) (full string, length int) {
-	fullName = full + " " + last
-	lenght = len(fullName)
+func FullNameNakedReturn(first, last string) (fullName string, length int) {
+	fullName = first + " " + last
+	length = len(fullName)
 	return
 }
